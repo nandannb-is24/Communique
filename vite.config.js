@@ -7,8 +7,5 @@ export default defineConfig(({ mode }) => {
   return {
     plugins: [react()],
     base: './',
-    define: {
-      'import.meta.env.VITE_GROQ_API_KEY': JSON.stringify(env.GROQ_API_KEY || '')
-    }
   }
 })

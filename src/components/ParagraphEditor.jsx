@@ -9,11 +9,8 @@ export default function ParagraphEditor({ paras, setParas, groqApiKey }) {
   const [loading, setLoading] = useState(false);
 
   const handleEnhance = async (index) => {
-    const apiKey = groqApiKey || import.meta.env.VITE_GROQ_API_KEY;
-    if (!apiKey) {
-      alert("Please provide a Groq API key in the 'Configuration' section to use AI features.");
-      return;
-    }
+    const apiKey = groqApiKey;
+    if (!apiKey) return;
     if (!paras[index].trim()) return;
 
     setLoading(true);
@@ -50,8 +47,8 @@ export default function ParagraphEditor({ paras, setParas, groqApiKey }) {
       {/* Formatting toolbar */}
       <div className="flex items-center gap-0.5 bg-gray-100 border border-gray-200 rounded-lg p-1 w-fit">
         {[
-          { cmd: "bold",      Icon: Bold,      title: "Bold (Ctrl+B)" },
-          { cmd: "italic",    Icon: Italic,    title: "Italic (Ctrl+I)" },
+          { cmd: "bold", Icon: Bold, title: "Bold (Ctrl+B)" },
+          { cmd: "italic", Icon: Italic, title: "Italic (Ctrl+I)" },
           { cmd: "underline", Icon: Underline, title: "Underline (Ctrl+U)" },
         ].map(({ cmd, Icon, title }) => (
           <button
