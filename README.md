@@ -29,4 +29,7 @@ A professional letter generator with real-time A4 preview, manual table breaks, 
 *   Click **"Save as PDF"** when finished!
 
 ---
-Created with ❤️ for the batch.
+
+
+**Created with ❤️ and a bit of 'Josh' for the batch.**  
+
