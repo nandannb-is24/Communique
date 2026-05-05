@@ -160,6 +160,17 @@ export default function EditorPanel({ state }) {
         </Section>
 
       </div>
+
+      {/* Footer / Prototype Warning */}
+      <div className="px-5 py-4 border-t border-gray-100 bg-gray-50/50">
+        <p className="text-[10px] text-gray-400 text-center leading-relaxed">
+          <span className="font-semibold text-amber-500 uppercase tracking-wider">Prototype</span><br />
+          Any issues? Reach out at:<br />
+          <a href="mailto:rvcecdtnandannaniyappanb@gmail.com" className="text-indigo-400 hover:text-indigo-600 transition-colors">
+            rvcecdtnandannaniyappanb@gmail.com
+          </a>
+        </p>
+      </div>
     </div>
   );
 }

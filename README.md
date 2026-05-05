@@ -41,8 +41,8 @@ A professional letter generator with real-time A4 preview, manual table breaks, 
 ### 5. Finalizing
 *   Click **"Save as PDF"**. Ensure your printer settings have "Margins: None" or "Default" for the best A4 fit.
 
-
-
 ---
 **Created with ❤️ and a bit of 'Josh' for the batch.**  
 
+**⚠️ PROTOTYPE NOTICE**  
+For any bugs or feature requests, please contact: `rvcecdtnandannaniyappanb@gmail.com`
