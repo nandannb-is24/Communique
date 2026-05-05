@@ -68,19 +68,6 @@ export default function EditorPanel({ state }) {
       {/* Sections */}
       <div className="flex-1">
 
-        <Section icon={FileText} title="Configuration" defaultOpen={false}>
-          <Field label="Groq AI API Key (Optional)">
-            <input
-              type="password"
-              className={inputClass}
-              placeholder="gsk_..."
-              value={groqApiKey}
-              onChange={(e) => setGroqApiKey(e.target.value)}
-            />
-            <p className="text-[10px] text-gray-400 mt-1">Used for 'Enhance with AI' feature. Key is kept in memory only.</p>
-          </Field>
-        </Section>
-
         <Section icon={FileText} title="Header" defaultOpen={false}>
           <Field label="Letter Type">
             <select

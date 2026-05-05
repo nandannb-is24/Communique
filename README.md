@@ -45,4 +45,4 @@ A professional letter generator with real-time A4 preview, manual table breaks, 
 
 ---
 **Created with ❤️ and a bit of 'Josh' for the batch.**  
-*"Ek do, ek do... Generate!"* 🫡
+
