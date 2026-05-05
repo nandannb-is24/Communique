@@ -2,10 +2,23 @@
 
 A professional letter generator with real-time A4 preview, manual table breaks, and draggable signatures. Designed for cadets and batchmates to quickly generate formal letters.
 
-**Live Web Version Available!**  
+## How to Install
 
-[**https://communiqueweb.vercel.app/**](https://communiqueweb.vercel.app/)
+1.  **Download the Code**:
+    *   Click the green **"Code"** button at the top of this GitHub page.
+    *   Select **"Download ZIP"** and extract the folder on your computer.
 
+2.  **Open Extensions Page**:
+    *   Open Google Chrome.
+    *   In the address bar, type `chrome://extensions/` and press Enter.
+
+3.  **Enable Developer Mode**:
+    *   Toggle the **"Developer mode"** switch in the top right corner to **ON**.
+
+4.  **Load the Extension**:
+    *   Click the **"Load unpacked"** button.
+    *   **⚠️ IMPORTANT STEP**: Do **NOT** select the main `Communique-main` folder.
+    *   Instead, open the `Communique-main` folder and select the folder inside it named **`Communique_extension`**.
 
 ## 📖 User Manual (Field Manual)
 
